@@ -85,4 +85,4 @@
   * 최적의 경우는 한 번만 비교 : B(n) = 1
   * 평균의 경우 : 주어진 키 x가 k번째에 있으면 k번을 비교함
     * 만약 어떤 키 x는 리스트 S에 골고루 분포해 있다고 한다면,
-    * ![Alt text](/Users/user/Pictures/avg.png)
+    * ![avg](https://user-images.githubusercontent.com/66772624/155292391-3170bfa9-2c95-419b-bf06-0e9c26976b4a.png)
