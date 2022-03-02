@@ -24,16 +24,10 @@ def partition2 (S, low, high):
     i = low + 1
     j = high
     while (i <= j):
-        while (S[i] < pivotItem):
-            if (i < high):
-                i += 1
-            else:
-                break
-        while (S[j] > pivotItem):
-            if (j > low + 1):
-                j -= 1
-            else:
-                break
+        while (i <= high and S[i] < pivotItem):
+              i += 1
+        while (j >= low and S[j] > pivotItem):
+              j -= 1
         if (i < j):
             S[i], S[j] = S[j], S[i]
         print(i, j, S)
